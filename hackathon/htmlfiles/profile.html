@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .background {
+    background-image: url(/Integrated-platform-for-project-management-main/hackathon/images/homePage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(3px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+    .profile-container {
+      text-align: center;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 80%; 
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .profile-image {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .profile-info {
+      margin-bottom: 20px;
+    }
+
+    .profile-info h2 {
+      margin: 0;
+      color:#2c3e50;
+    }
+    .edit-profile-button {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    .edit-profile-button:hover {
+      background-color: #2980b9;
+    }
+    a {
+    text-decoration: none;
+    color: white;
+    }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+  <div class="profile-container"style="background-color: rgba(236, 240, 241, 0.8);color: #2c3e50;">
+    <img src="/Integrated-platform-for-project-management-main/hackathon/images/human-logo.jpg" alt="Profile Picture" class="profile-image">
+    <div class="profile-info">
+      <h2>John Doe</h2>
+      <p>Email: john.doe@example.com</p>
+    </div>
+    <button class="edit-profile-button"><a href="edit.html">Edit Profile</button>
+  </div>
+
+</body>
+</html>
